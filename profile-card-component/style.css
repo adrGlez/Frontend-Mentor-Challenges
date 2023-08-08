@@ -1,0 +1,125 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.bg-top {
+    position: absolute;
+    background-image: url('./images/bg-pattern-top.svg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    top: -33%;
+    left: -12%;
+}
+
+.bg-bot {
+    position: absolute;
+    background-image: url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 370px;
+    width: 350px;
+    border-radius: 15px;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.banner {
+    background-image: url('./images/bg-pattern-card.svg');
+    height: 35%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.photo {
+    position: absolute;
+    top: 20.7%;
+    background-image: url('./images/image-victor.jpg');
+    height: 96px;
+    width: 96px;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+span{
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+
+.age {
+    position: relative;
+    top: 28px;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 4px;
+    font-size: large;
+    margin: 0;
+}
+
+.city {
+    position: relative;
+    top: 12px;
+    color: hsl(0, 0%, 59%);
+    margin: 0;
+    font-size: 14px;
+}
+
+hr {
+    position: relative;
+    top: 12px;
+    width: 100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.194);;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.followers .likes .photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nums {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+.text {
+    margin: 5px 0 0;
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;
+}

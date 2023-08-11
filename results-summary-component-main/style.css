@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+    /* Primary */
+    --red: hsl(0, 100%, 67%);
+    --orange: hsl(39, 100%, 56%);
+    --green: hsl(166, 100%, 37%);
+    --blue: hsl(234, 85%, 45%);
+    /* Gradients */
+    --first-blue-bg: hsl(252, 100%, 67%);
+    --second-blue-bg: hsl(241, 81%, 54%);
+    --first-blue-circle: hsla(256, 72%, 46%, 1);
+    --second-blue-circle: hsla(241, 72%, 46%, 0);
+    /* Neutral */
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-blue: hsl(221, 100%, 96%);
+    --neutral-lavender: hsl(241, 100%, 89%);
+    --neutral-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-card {
+    display: flex;
+    height: 400px;
+    width: 700px;
+    box-shadow: 7px 7px 5px 0px rgba(198, 189, 227, 0.4);
+    border-radius: 24px;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: linear-gradient(hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+    border-radius: 24px;
+}
+
+.title-left-card {
+    
+}

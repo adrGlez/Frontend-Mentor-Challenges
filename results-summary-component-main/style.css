@@ -170,6 +170,13 @@ img {
 .grade-stat {
     font-size: 16px;
     margin-right: 12px;
+    color: rgba(128, 128, 128, 0.705);
+    font-weight: 600;
+}
+
+.grade {
+    font-weight: bold;
+    color: rgb(70, 70, 70);
 }
 
 button {

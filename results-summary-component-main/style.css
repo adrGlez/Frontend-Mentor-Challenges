@@ -43,6 +43,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     width: 50%;
     background: linear-gradient(var(--first-blue-bg) 0%, var(--second-blue-bg) 100%);
     border-radius: 24px;
@@ -78,21 +79,32 @@ p {
     font-weight: bold;
 }
 
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .result-title {
     color: var(--neutral-white);
     font-size: 28px;
     font-weight: bold;
+    margin: 0;
 }
 
 .info {
     color: var(--neutral-white-light);
     text-align: center;
     max-width: 25ch;
+    font-size: medium;
+    margin: 8px 0 32px 0;
 }
 
 .right-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 38%;
     /* height: 100%; */
     margin-left: 6%;
@@ -103,7 +115,6 @@ p {
 .summary {
     color: var(--neutral-gray-blue);
     font-weight: bold;
-    margin: 0;
     margin-top: 16px;
 }
 

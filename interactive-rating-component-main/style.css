@@ -1,9 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    /* Primary */
+    --orange: hsl(25, 97%, 53%);
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(217, 12%, 63%);
+    --medium-gray: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
 body {
     background-color: rgba(14, 20, 4, 0.541);
 }
 
+p {
+    font-size: 15px;
+    color: var(--light-gray);
+    margin: 0;
+}
+
 .container {
-    background-color: rgba(255, 192, 203, 0.479);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-dark-blue);
     height: 450px;
     width: 480px;
+    border-radius: 32px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 10%;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--medium-gray);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.top-circle {
+    align-self: start;
+}
+
+img {
+    width: 35%;
+}
+
+h1 {
+    color: var(--white);
+}
+
+.grade {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
